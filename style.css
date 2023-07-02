@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Roboto Mono;
+    src: url(./assets/fonts/RobotoMono-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Roboto Mono;
+    src: url(./assets/fonts/RobotoMono-Light.ttf);
+    font-weight: 300;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color:  	#eddeb7;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.nav__list {   
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.nav__item {
+    margin-right: 20px;
+    font-weight: 300;
+    font-size: 20px ;   
+}
+
+.nav__item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
