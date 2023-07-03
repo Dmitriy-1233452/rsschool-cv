@@ -25,27 +25,53 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
-    background-color:  	#eddeb7;
+    background-color:  	#F6F6F6;
+    width: 70%;
 }
 
 .header {
+    width: 100%;
     margin: 0 auto;
 }
 
 .nav__list {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    margin: 60px auto 79px;
     list-style: none;
 }
 
 .nav__item {
-    margin-right: 20px;
-    font-weight: 300;
-    font-size: 20px ;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .nav__item:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.main {
+    margin: 0 auto;
+}
+
+.main__info {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__title {
+    margin: 0 auto;
+    max-width: 40%;
+    font-size: 100px;
+    font-weight: 700;
+    color: #999999;
+}
+
+.main__avatar {
+    margin: 0 auto;
+    width: 350px;
+    height: 320px;
+    object-fit: cover;
 }
