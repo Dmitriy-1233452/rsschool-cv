@@ -25,7 +25,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
-    background-color:  	#F6F6F6;
+    background-color: #F6F6F6;
     width: 70%;
     color: #999999;
 }
@@ -94,6 +94,7 @@
 .section-title {
     font-weight: 700;
     font-size: 80px;
+    margin-bottom: 20px;
 }
 
 .section-description {
