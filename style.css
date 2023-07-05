@@ -104,3 +104,9 @@
 .skills-item {
     font-size: 25px;
 }
+
+.my-code {
+    width: 40%;
+    background-color: #FFE8E8;
+    color: #000;
+}
